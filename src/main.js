@@ -9,7 +9,7 @@ import {
 	showStreak,
 	showTranslation,
 } from "./optionfunctions.js";
-import { wordData } from "./worddata.js";
+import { wordData } from "./worddata2.js";
 
 const nonConjugationSettings = [];
 document
@@ -105,9 +105,9 @@ function loadNewWord(wordList) {
 
 function updateCurrentWord(word) {
 	document.getElementById("verb-box").style.background = "none";
-	document.getElementById("verb-text").innerHTML =
-		"<ruby>" + word.wordJSON.kanji + "</ruby>";
-	document.getElementById("translation").textContent = word.wordJSON.eng;
+	console.log(word.wordJSON.eng)
+	document.getElementById("verb-text").innerHTML = word.wordJSON.eng ;
+	//document.getElementById("translation").innerHTML = "<ruby>" + word.wordJSON.kanji + "</ruby>";
 	// Set verb-type to a non-breaking space to preserve vertical height
 	document.getElementById("verb-type").textContent = "\u00A0";
 	document.getElementById("conjugation-inquery-text").innerHTML =
@@ -1025,7 +1025,7 @@ function updateStatusBoxes(word, entryText) {
 			(entryText == "" ? "_" : entryText) +
 			" ×<br>" +
 			word.conjugation.conjugations[0] +
-			" ○";
+			" ○" + "<br>" + "<ruby>" + word.wordJSON.kanji + "</ruby>";
 	}
 }
 
