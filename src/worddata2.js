@@ -38,7 +38,7 @@ export const wordData = {
     {"kanji":"電<rt>で<\/rt>話<rt>わ<\/rt>する","type":"irv","eng":"ringa"},
     {"kanji":"掃<rt>そう<\/rt>除<rt>じ<\/rt>する","type":"irv","eng":"städa"},
     {"kanji":"持<rt>も<\/rt>ってくる","type":"irv","eng":"ta med (objekt)"},
-    {"kanji":"連<rt>つ<\/rt>れてくる","type":"irv","eng":"ta med (person)"}
+    {"kanji":"連<rt>つ<\/rt>れる","type":"ru","eng":"ta med (person)"}
     ],
     "adjectives": [
         {"kanji":"いい","type":"ira","eng":"good"},
