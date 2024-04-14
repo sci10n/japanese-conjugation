@@ -1041,7 +1041,8 @@ function updateStatusBoxes(word, entryText) {
 			(entryText == "" ? "_" : entryText) +
 			" ×<br>" +
 			word.conjugation.conjugations[0] +
-			" ○" + "<br>" + "<ruby>" + word.wordJSON.kanji + "</ruby>";
+			" ○" + "<br>" +
+			"<ruby>" + word.wordJSON.kanji + "</ruby>";
 	}
 }
 
