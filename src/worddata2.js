@@ -38,7 +38,11 @@ export const wordData = {
     {"kanji":"電<rt>で<わ\/rt>話する","type":"irv","eng":"ringa"},
     {"kanji":"掃<rt>そうじ<\/rt>除する","type":"irv","eng":"städa"},
     {"kanji":"持<rt>も<\/rt>ってくる","type":"irv","eng":"ta med (objekt)"},
-    {"kanji":"連<rt>つ<\/rt>れる","type":"ru","eng":"ta med (person)"}
+    {"kanji":"連<rt>つ<\/rt>れる","type":"ru","eng":"ta med (person)"},
+    {"kanji":"おしえる","type":"ru","eng":"att undervisa"},
+    {"kanji":"ゆうする","type":"irv","eng":"att ha"},
+    {"kanji":"すく","type":"u","eng":"att gilla"},
+    {"kanji":"はなす","type":"u","eng":"tala"}
     ],
     "adjectives": [
         {"kanji":"いい","type":"ira","eng":"good"},
