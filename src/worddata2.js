@@ -35,7 +35,7 @@ export const wordData = {
     {"kanji":"撮<rt>と<\/rt>る","type":"u","eng":"ta en bild"},
     {"kanji":"出<rt>で<\/rt>かける","type":"ru","eng":"gå ut"},
     {"kanji":"教<rt>おし<\/rt>える","type":"ru","eng":"undervisa, berätta"},
-    {"kanji":"電<rt>で<わ\/rt>話する","type":"irv","eng":"ringa"},
+    {"kanji":"電<rt>でわ<\/rt>話する","type":"irv","eng":"ringa"},
     {"kanji":"掃<rt>そうじ<\/rt>除する","type":"irv","eng":"städa"},
     {"kanji":"持<rt>も<\/rt>ってくる","type":"irv","eng":"ta med (objekt)"},
     {"kanji":"連<rt>つ<\/rt>れる","type":"ru","eng":"ta med (person)"},
