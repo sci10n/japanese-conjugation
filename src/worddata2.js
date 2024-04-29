@@ -11,7 +11,6 @@ export const wordData = {
     {"kanji":"見<rt>み<\/rt>る","type":"ru","eng":"se, titta"},
     {"kanji":"開<rt>あ<\/rt>ける","type":"ru","eng":"öppna"},
     {"kanji":"寝<rt>ね<\/rt>る","type":"ru","eng":"sova, gå till sängs"},
-    {"kanji":"上<rt>あ<\/rt>がる","type":"u","eng":"att resa, att gå upp"},
     {"kanji":"帰<rt>かえ<\/rt>る","type":"ru","eng":"återvända, gå hem"},
     {"kanji":"買<rt>か<\/rt>う","type":"u","eng":"köpa"},
     {"kanji":"会<rt>あ<\/rt>う","type":"u","eng":"träffas"},
